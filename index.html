@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Nhóm 1 - Marketing xanh</title>
+
+  <meta name="description" content="Khám phá Marketing xanh và hành vi mua xanh của thế hệ Gen Z.">
+
+  <meta name="keywords" content="Marketing xanh, Gen Z, tiêu dùng xanh, hành vi mua xanh">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #263b2d;
+      background: #f5f8f2;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #174c35;
+      color: white;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header h2 {
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 18px;
+      font-size: 14px;
+    }
+
+    .hero {
+      background: linear-gradient(120deg, #174c35, #55966b);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      max-width: 850px;
+      margin: auto;
+    }
+
+    .hero p {
+      margin: 20px auto;
+      max-width: 650px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #d9edbd;
+      color: #174c35;
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    section {
+      padding: 65px 10%;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #174c35;
+      margin-bottom: 25px;
+      font-size: 30px;
+    }
+
+    .intro {
+      max-width: 850px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 3px 12px #00000010;
+    }
+
+    .card h3 {
+      color: #287447;
+      margin-bottom: 12px;
+    }
+
+    .survey {
+      background: #e5efdf;
+      text-align: center;
+    }
+
+    footer {
+      background: #174c35;
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+    }
+
+    @media (max-width: 700px) {
+      header {
+        justify-content: center;
+        gap: 10px;
+      }
+
+      nav {
+        text-align: center;
+      }
+
+      nav a {
+        margin: 5px;
+      }
+
+      .hero h1 {
+        font-size: 30px;
+      }
+
+      .cards {
+        grid-template-columns: 1fr;
+      }
+
+      section {
+        padding: 45px 7%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h2>Nhóm 1 - Marketing Xanh</h2>
+
+    <nav>
+      <a href="#gioithieu">Giới thiệu</a>
+      <a href="#noidung">Nội dung</a>
+      <a href="#khaosat">Khảo sát</a>
+      <a href="#lienhe">Liên hệ</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>MARKETING XANH VÀ HÀNH VI MUA XANH CỦA GEN Z</h1>
+
+    <p>
+      Khám phá xu hướng tiêu dùng xanh,
+      nhận thức môi trường và vai trò của
+      Marketing xanh trong thế hệ trẻ.
+    </p>
+
+    <a href="#gioithieu" class="btn">
+      Khám phá ngay
+    </a>
+  </div>
+
+  <section id="gioithieu">
+    <div class="intro">
+      <h2>Giới thiệu chủ đề</h2>
+
+      <p>
+        Marketing xanh là hoạt động tiếp thị hướng đến
+        các sản phẩm và dịch vụ thân thiện với môi trường.
+        Trong bối cảnh người tiêu dùng ngày càng quan tâm
+        đến phát triển bền vững, Gen Z đang trở thành một
+        nhóm đối tượng đáng chú ý trong xu hướng tiêu dùng xanh.
+      </p>
+    </div>
+  </section>
+
+  <section id="noidung">
+    <h2>Những nội dung chính</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>01. Marketing xanh</h3>
+        <p>
+          Tìm hiểu khái niệm, đặc điểm và vai trò
+          của Marketing xanh trong kinh doanh.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>02. Thế hệ Gen Z</h3>
+        <p>
+          Khám phá nhận thức, thái độ và sự quan tâm
+          của Gen Z đối với môi trường.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>03. Hành vi mua xanh</h3>
+        <p>
+          Tìm hiểu những yếu tố ảnh hưởng đến quyết định
+          lựa chọn sản phẩm thân thiện với môi trường.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="survey" id="khaosat">
+    <h2>Cùng chúng tôi khảo sát</h2>
+
+    <p>
+      Ý kiến của bạn sẽ giúp nhóm tìm hiểu rõ hơn
+      về hành vi tiêu dùng xanh của Gen Z.
+    </p>
+
+    <a href="https://forms.google.com"
+       class="btn" target="_blank">
+       Tham gia khảo sát
+    </a>
+  </section>
+
+  <footer id="lienhe">
+    <h3>GREEN GEN Z</h3>
+
+    <p>Nhóm thực hiện: Nhóm 1</p>
+
+    <p>Trường: Đại Học Ngân Hàng TP.HCM</p>
+
+    <p>Email: ................................</p>
+
+    <p>© 2026 - Digital Marketing Project</p>
+  </footer>
+
+</body>
+</html>
